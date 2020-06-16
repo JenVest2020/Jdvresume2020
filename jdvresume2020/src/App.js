@@ -5,6 +5,7 @@ import LambdaRedLogoFull from './LambdaRedLogoFull.png';
 import crossFlagMine from '../src/crossFlagMine.jpg';
 import ContactForm from './ContactForm';
 import DigitalArt from './DigitalArt';
+import AboutMe from './AboutMe';
 
 const App = () => {
   const [collapsed, setCollapsed] = useState(true);
@@ -17,11 +18,18 @@ const App = () => {
         <NavbarBrand style={{ color: 'white' }} href="/" className="mr-auto">
           <h1>Jennifer Vest 2020</h1>
         </NavbarBrand>
+        <Link to='/'>
+          <Button color='info' size='lg'>
+            Home
+          </Button>
+        </Link>
+        <h5 style={{ color: 'white', marginLeft: '30%' }} >Contact Me => </h5>
         <NavbarToggler onClick={toggleNavbar} />
         <Collapse isOpen={!collapsed} navbar >
           <Nav navbar>
             <NavItem>
               <NavLink href="/contactForm" className='text-white'>
+                <h4>Click one for Contact Form</h4>
                 <h4>Address</h4>
                 <p>111 E. 2nd Street,<br>
                 </br> Desoto, MO<br>
@@ -83,7 +91,7 @@ const App = () => {
                   <li>Illustrator, PhotoShop,& InDesign</li>
                 </ul>
               </CardText>
-              <Link to=''>
+              <Link to='/aboutMe'>
                 <Button color='info' >More About Me</Button>
               </Link>
             </CardBody>
@@ -115,6 +123,9 @@ const App = () => {
       </Route>
       <Route path='/digitalArt'>
         < DigitalArt />
+      </Route>
+      <Route path='/aboutMe'>
+        <AboutMe />
       </Route>
     </div>
   );

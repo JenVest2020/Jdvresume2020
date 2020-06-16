@@ -7,19 +7,18 @@ const ContactForm = () => {
     return (
         <div>
             <Card color='info' light style={{ display: 'flex', textAlign: 'center', alignItems: 'flexStart' }}>
-                <Link to='/'>
-                    <Button color='danger' size='small'>Home</Button>
-                </Link>
                 <h1 style={{ color: 'white', margin: '0' }}><img src={LambdaRedSmall} style={{ width: '5%' }} /> Contact Jennifer Vest <img src={LambdaRedSmall} style={{ width: '5%' }} /></h1>
             </Card>
             <Form style={{ width: '80%', margin: '0 auto', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', backgroundColor: '#cceeff', border: '5px ridge #006699' }}>
                 <FormGroup>
                     <legend style={{ color: '#006699', fontWeight: 'bold' }}>
-                        Name
+                        Name & Title
                     </legend>
                     <Input style={{ border: '2px ridge #006699' }}
                         type='name'
-                        name='name' />
+                        name='name'
+                        placeholder='Joe Smith/Lead Designer' />
+                    <p style={{ fontWeight: 'bold' }}>Joe Smith/Lead Designer</p>
                 </FormGroup>
                 <FormGroup>
                     <legend style={{ color: '#006699', fontWeight: 'bold' }}>
