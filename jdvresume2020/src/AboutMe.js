@@ -6,6 +6,17 @@ import profilepicture2020 from '../src/profilepicture2020.png';
 const AboutMe = () => {
     return (
         <>
+            <Card color='info' light style={{ display: 'flex', textAlign: 'center', color: 'white', alignItems: 'flexStart' }}>
+                <h3>My Employment Goals:</h3><span>
+                    <ul style={{ listStyleType: 'none' }}>
+                        <li>Remote Work from Home</li>
+                        <li>Front End Design/Advanced CSS/Reactstrap/Advanced Form building</li>
+                        <li><h5>Salary:</h5>60,000/year</li>
+                        <li><h5>Benefits:</h5>Medical, Dental, Vision, Life, Vacation/Personal/Sick Time</li>
+
+                    </ul>
+                </span>
+            </Card>
             <Card style={{ display: 'flex', flexDirection: 'row', border: '2px ridge #006699' }} >
                 <CardImg style={{ width: '30%', height: '25rem' }} src={profilepicture2020} alt='' />
                 <CardBody style={{ width: '50%', textAlign: 'center' }} >
