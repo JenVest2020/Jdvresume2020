@@ -1,63 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Route, Link } from 'react-router-dom';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Card, CardImg, CardBody, CardText, CardTitle, CardSubtitle, Button } from 'reactstrap';
+import { Card, CardImg, CardBody, CardText, CardTitle, CardSubtitle, Button } from 'reactstrap';
 import LambdaRedLogoFull from './components/images/LambdaRedLogoFull.png';
 import crossFlagMine from '../src/components/images/crossFlagMine.jpg';
 import ContactForm from './components/ContactForm';
 import DigitalArt from './components/DigitalArt';
 import AboutMe from './components/AboutMe';
+import Navigation from './components/Navigation';
 
 const App = () => {
-  const [collapsed, setCollapsed] = useState(true);
 
-  const toggleNavbar = () => setCollapsed(!collapsed);
 
   return (
     <div style={{ background: 'linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%)' }}>
-      <Navbar color="info" light >
-        <NavbarBrand style={{ color: 'white' }} href="/" className="mr-auto">
-          <h1>Jennifer Vest 2020</h1>
-        </NavbarBrand>
-        <Link to='/digitalArt'>
-          <Button color='info' >My Digital Art</Button>
-        </Link>
-        <Link to='/'>
-          <Button color='info' size='lg'>
-            Home
-          </Button>
-        </Link>
-        <Link to='/aboutMe'>
-          <Button color='info' >More About Me</Button>
-        </Link>
-        <h5 style={{ color: 'white', marginLeft: '20%' }} >Contact Me => </h5>
-        <NavbarToggler onClick={toggleNavbar} />
-        <Collapse isOpen={!collapsed} navbar >
-          <Nav navbar>
-            <NavItem>
-              <NavLink href="/contactForm" className='text-white'>
-                <h4>Click for the Contact Form</h4>
-                <h4>Address</h4>
-                <p>111 E. 2nd Street,<br>
-                </br> Desoto, MO<br>
-                  </br>63020</p>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/contactForm" className='text-white'>
-                <h4>Phone</h4>
-                <p>(913)237-2829</p>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/contactForm" className='text-white'>
-                <h4>Email</h4>
-                <p>Primary: jenvest2019@gmail.com</p>
-                <p>Scholastic: jennifer-vest@lambdastudents.com </p>
-              </NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </Navbar>
+      <Navigation />
       <div style={{ display: 'flex', backgroundImage: 'linear-gradient( #9fb8ad, #1fc8db, #2cb5e8)', textAlign: 'center' }}>
         <Route exact path='/'>
           <Card style={{ width: '50%', display: 'flex', justifyContent: 'center', textAlign: 'center', border: '2px ridge #006699' }}>
