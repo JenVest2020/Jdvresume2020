@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Route, Link } from 'react-router-dom';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Card, CardImg, CardBody, CardText, CardTitle, CardSubtitle, Button } from 'reactstrap';
-import LambdaRedLogoFull from './LambdaRedLogoFull.png';
-import crossFlagMine from '../src/crossFlagMine.jpg';
-import ContactForm from './ContactForm';
-import DigitalArt from './DigitalArt';
-import AboutMe from './AboutMe';
+import LambdaRedLogoFull from './components/images/LambdaRedLogoFull.png';
+import crossFlagMine from '../src/components/images/crossFlagMine.jpg';
+import ContactForm from './components/ContactForm';
+import DigitalArt from './components/DigitalArt';
+import AboutMe from './components/AboutMe';
 
 const App = () => {
   const [collapsed, setCollapsed] = useState(true);

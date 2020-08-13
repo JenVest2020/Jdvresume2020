@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardImg, Form, FormGroup, Input, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import LambdaRedSmall from './LambdaRedSmall.png';
+import LambdaRedSmall from './images/LambdaRedSmall.png';
 
 const ContactForm = () => {
     return (

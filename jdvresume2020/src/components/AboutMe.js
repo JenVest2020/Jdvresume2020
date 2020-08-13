@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Route, Link } from 'react-router-dom';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Card, CardImg, CardBody, CardText, CardLink, CardTitle, CardSubtitle, Button } from 'reactstrap';
-import profilepicture2020 from '../src/profilepicture2020.png';
+import profilepicture2020 from './images/profilepicture2020.png';
 
 const AboutMe = () => {
     return (
