@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Route, Link } from 'react-router-dom';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Card, CardImg, CardBody, CardText, CardLink, CardTitle, CardSubtitle, Button } from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Card, CardImg, CardBody, CardText, CardTitle, CardSubtitle, Button } from 'reactstrap';
 import LambdaRedLogoFull from './LambdaRedLogoFull.png';
 import crossFlagMine from '../src/crossFlagMine.jpg';
 import ContactForm from './ContactForm';
@@ -58,11 +58,11 @@ const App = () => {
           </Nav>
         </Collapse>
       </Navbar>
-      <div style={{ display: 'flex', backgroundImage: 'linear-gradient( #9fb8ad, #1fc8db, #2cb5e8)' }}>
+      <div style={{ display: 'flex', backgroundImage: 'linear-gradient( #9fb8ad, #1fc8db, #2cb5e8)', textAlign: 'center' }}>
         <Route exact path='/'>
           <Card style={{ width: '50%', display: 'flex', justifyContent: 'center', textAlign: 'center', border: '2px ridge #006699' }}>
             <CardImg src={LambdaRedLogoFull} alt="Lambda School logo in red" style={{ width: '50%', margin: '0 auto' }} />
-            <CardBody>
+            <CardBody style={{ textAlign: 'center' }}>
               <CardTitle><h4>Lambda School Student</h4></CardTitle>
               <CardSubtitle>Since: March 9, 2020 </CardSubtitle>
               <CardText>
@@ -78,6 +78,9 @@ const App = () => {
                   <li>React Router</li>
                   <li>Advanced Form Management</li>
                   <li>Cypress.io</li>
+                  <li>Advanced React</li>
+                  <li>Advanced State Management</li>
+                  <li>Advanced Web Applications</li>
                 </ul>
               </CardText>
               <Button href='https://github.com/JenVest2020' color='info' >
