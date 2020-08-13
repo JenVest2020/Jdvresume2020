@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import { Route, Link } from 'react-router-dom';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Card, CardImg, CardBody, CardText, CardLink, CardTitle, CardSubtitle, Button } from 'reactstrap';
+import React from 'react';
+import { Card, CardTitle, CardSubtitle } from 'reactstrap';
 import EduPortfolioDesign from './images/EduPortfolioDesign.png';
 import FamilyThenandNow from './images/FamilyThenandNow.jpg';
 import AandJLoveOfMusic from './images/AandJLoveOfMusic.jpg';

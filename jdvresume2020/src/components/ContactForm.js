@@ -1,13 +1,12 @@
 import React from 'react';
-import { Card, CardImg, Form, FormGroup, Input, Button } from 'reactstrap';
-import { Link } from 'react-router-dom';
+import { Card, Form, FormGroup, Input, Button } from 'reactstrap';
 import LambdaRedSmall from './images/LambdaRedSmall.png';
 
 const ContactForm = () => {
     return (
         <div>
             <Card color='info' light style={{ display: 'flex', textAlign: 'center', alignItems: 'flexStart' }}>
-                <h1 style={{ color: 'white', margin: '0' }}><img src={LambdaRedSmall} style={{ width: '5%' }} /> Contact Jennifer Vest <img src={LambdaRedSmall} style={{ width: '5%' }} /></h1>
+                <h1 style={{ color: 'white', margin: '0' }}><img src={LambdaRedSmall} style={{ width: '5%' }} alt='Lambda sheild logo in red' /> Contact Jennifer Vest <img src={LambdaRedSmall} style={{ width: '5%' }} alt='Lambda sheild logo in red' /></h1>
             </Card>
             <Form style={{ width: '80%', margin: '0 auto', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', backgroundColor: '#cceeff', border: '5px ridge #006699' }}>
                 <FormGroup>
