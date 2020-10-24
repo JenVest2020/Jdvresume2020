@@ -37,6 +37,10 @@ const App = () => {
                   <li>Advanced React</li>
                   <li>Advanced State Management</li>
                   <li>Advanced Web Applications</li>
+                  <li>Web API: Node</li>
+                  <li>Building a Web Api</li>
+                  <li>Data Persistence</li>
+                  <li>Authentication and Testing</li>
                 </ul>
               </CardText>
               <Button href='https://github.com/JenVest2020' color='info' >
