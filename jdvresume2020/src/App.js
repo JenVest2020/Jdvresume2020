@@ -54,7 +54,7 @@ const App = () => {
               <CardText>
                 <ul style={{ listStyleType: 'none' }}>
                   <li>IDE: VsCode</li>
-                  <li>Com tool: Slack</li>
+                  <li>Com tool: Slack & Zoom</li>
                   <li>Version Control System: GitHub</li>
                   <li>Digital Art: Adobe CS:</li>
                   <li>Illustrator, PhotoShop,& InDesign</li>
@@ -76,6 +76,7 @@ const App = () => {
                   <li>Advanced CSS</li>
                   <li>Front End Advanced Forms</li>
                   <li>Digital Manipulation/Image Creation</li>
+                  <li>Backend Database creation with Node.js</li>
                 </ul>
               </CardText>
               <Link to='/digitalArt'>
