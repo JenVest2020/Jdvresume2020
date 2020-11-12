@@ -46,7 +46,7 @@ const Navigation = () => {
                     <NavItem>
                         <NavLink href="/contactForm" className='text-white'>
                             <h4>Email</h4>
-                            <p>Primary: jenvest2019@gmail.com</p>
+                            <p>Primary: jenvest2020@gmail.com</p>
                             <p>Scholastic: jennifer-vest@lambdastudents.com </p>
                         </NavLink>
                     </NavItem>
