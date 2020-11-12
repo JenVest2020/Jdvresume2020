@@ -40,7 +40,7 @@ const Navigation = () => {
                     <NavItem>
                         <NavLink href="/contactForm" className='text-white'>
                             <h4>Phone</h4>
-                            <p>(913)237-2829</p>
+                            <p>(573)210-2934</p>
                         </NavLink>
                     </NavItem>
                     <NavItem>
