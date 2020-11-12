@@ -41,6 +41,7 @@ const App = () => {
                   <li>Building a Web Api</li>
                   <li>Data Persistence</li>
                   <li>Authentication and Testing</li>
+                  <li>Testing the Backend</li>
                 </ul>
               </CardText>
               <Button href='https://github.com/JenVest2020' color='info' >
