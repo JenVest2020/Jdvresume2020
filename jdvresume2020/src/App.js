@@ -76,7 +76,7 @@ const App = () => {
                   <li>Advanced CSS</li>
                   <li>Front End Advanced Forms</li>
                   <li>Digital Manipulation/Image Creation</li>
-                  <li>Backend Database creation with Node.js</li>
+                  <li>Backend Database creation with Node.js and Express</li>
                 </ul>
               </CardText>
               <Link to='/digitalArt'>
