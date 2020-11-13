@@ -9,7 +9,7 @@ const AboutMe = () => {
                 <h3>My Employment Goals:</h3><span>
                     <ul style={{ listStyleType: 'none' }}>
                         <li>Remote Work from Home</li>
-                        <li>Front End Design/Advanced CSS/Reactstrap/Advanced Form building</li>
+                        <li>Front End Design/Advanced CSS/React js</li>
                         <li><h5>Salary:</h5>60,000/year</li>
                         <li><h5>Benefits:</h5>Medical, Dental, Vision, Life, Vacation/Personal/Sick Time</li>
 
