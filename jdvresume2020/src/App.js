@@ -31,10 +31,9 @@ const App = () => {
                   <li>React JS</li>
                   <li>Single Page Applications</li>
                   <li>React Router</li>
-                  <li>Advanced Form Management</li>
                   <li>Cypress.io</li>
                   <li>Advanced React</li>
-                  <li>Advanced State Management</li>
+                  <li>Advanced State Management(Redux)</li>
                   <li>Advanced Web Applications</li>
                   <li>Web API: Node</li>
                   <li>Building a Web Api</li>
@@ -74,7 +73,6 @@ const App = () => {
                   <li>Front End Design</li>
                   <li>CSS/Reactstrap</li>
                   <li>Advanced CSS</li>
-                  <li>Front End Advanced Forms</li>
                   <li>Digital Manipulation/Image Creation</li>
                   <li>Backend Database creation with Node.js and Express</li>
                 </ul>
