@@ -10,7 +10,7 @@ const AboutMe = () => {
                     <ul style={{ listStyleType: 'none' }}>
                         <li>Remote Work from Home</li>
                         <li>Front End Design/Advanced CSS/React js</li>
-                        <li><h5>Salary:</h5>60,000/year Full-Time/ or 30,000/year Part-Time</li>
+                        <li><h5>Salary:</h5>60,000/year Full-Time or 30,000/year Part-Time</li>
                         <li><h5>Benefits:</h5>Medical, Dental, Vision, Life, Vacation/Personal/Sick Time</li>
 
                     </ul>
