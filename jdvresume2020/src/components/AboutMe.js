@@ -17,7 +17,7 @@ const AboutMe = () => {
                 </span>
             </Card>
             <Card style={{ display: 'flex', flexDirection: 'row', border: '2px ridge #006699' }} >
-                <CardImg style={{ width: '30%', height: '25rem' }} src={profilepicture2020} alt='' />
+                <CardImg style={{ width: '30%', height: '30rem' }} src={profilepicture2020} alt='' />
                 <CardBody style={{ width: '50%', textAlign: 'center' }} >
                     <CardTitle style={{ color: '#006699', textShadow: '2px 2px grey' }} ><h3>About My Journey</h3></CardTitle>
                     <CardText> Hi, from the little town of Desoto, MO!
