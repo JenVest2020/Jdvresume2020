@@ -29,8 +29,7 @@ const Navigation = () => {
             <Collapse isOpen={!collapsed} navbar >
                 <Nav navbar>
                     <NavItem>
-                        <NavLink href="/contactForm" className='text-white'>
-                            <h4>Click for the Contact Form</h4>
+                        <NavLink  className='text-white'>
                             <h4>Address</h4>
                             <p>111 E. 2nd Street,<br>
                             </br> Desoto, MO<br>
@@ -38,13 +37,13 @@ const Navigation = () => {
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/contactForm" className='text-white'>
+                        <NavLink  className='text-white'>
                             <h4>Phone</h4>
                             <p>(573)210-2934</p>
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/contactForm" className='text-white'>
+                        <NavLink  className='text-white'>
                             <h4>Email</h4>
                             <p>Primary: jenvest2019@gmail.com</p>
                             <p>Scholastic: jennifer-vest@lambdastudents.com </p>

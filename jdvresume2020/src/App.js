@@ -3,7 +3,6 @@ import { Route, Link } from 'react-router-dom';
 import { Card, CardImg, CardBody, CardText, CardTitle, CardSubtitle, Button } from 'reactstrap';
 import LambdaRedLogoFull from './components/images/LambdaRedLogoFull.png';
 import crossFlagMine from '../src/components/images/crossFlagMine.jpg';
-import ContactForm from './components/ContactForm';
 import DigitalArt from './components/DigitalArt';
 import AboutMe from './components/AboutMe';
 import Navigation from './components/Navigation';
@@ -89,9 +88,6 @@ const App = () => {
           </Card>
         </Route>
       </div>
-      <Route path='/contactForm'>
-        <ContactForm />
-      </Route>
       <Route path='/digitalArt'>
         < DigitalArt />
       </Route>
